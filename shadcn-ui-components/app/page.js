@@ -1,13 +1,18 @@
 "use client";
-import { Button } from "@/components/ui/button";
-import Banner from "./_components/Banner";
+
+import AccordionComponent from "./_components/AccordionComponent";
+import AlertComponent from "./_components/AlertComponent";
+import AlertDialogComponent from "./_components/AlertDialogComponent";
+import AvatarComponent from "./_components/AvatarComponent";
 
 export default function Home() {
   return (
     <>
-      <div className="p-10">
-        <Button>Click Me</Button>
-        <Banner />
+      <div className="p-10 container mx-auto">
+        <AccordionComponent />
+        <AlertComponent />
+        <AlertDialogComponent />
+        <AvatarComponent />
       </div>
     </>
   );
