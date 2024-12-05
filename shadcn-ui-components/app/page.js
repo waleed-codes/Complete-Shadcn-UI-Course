@@ -7,6 +7,13 @@ import AvatarComponent from "./_components/AvatarComponent";
 import BadgeComponent from "./_components/BadgeComponent";
 import BreadcrumbComponent from "./_components/breadcrumbcomponent";
 import CalendarComponent from "./_components/CalendarComponent";
+import CardComponents from "./_components/CardComponents";
+import CarouselComponent from "./_components/CarouselComponent";
+import { ChartComponent } from "./_components/ChartComponent";
+import CheckBoxComponent from "./_components/CheckBoxComponent";
+import { CollapsibleComponent } from "./_components/CollapsibleComponent";
+import { CommandComponent } from "./_components/CommandComponent";
+import ContextmenuComponent from "./_components/ContextmenuComponent";
 
 export default function Home() {
   return (
@@ -19,6 +26,13 @@ export default function Home() {
         <BadgeComponent />
         <BreadcrumbComponent />
         <CalendarComponent />
+        <CardComponents />
+        <CarouselComponent />
+        <ChartComponent />
+        <CheckBoxComponent />
+        <CollapsibleComponent />
+        <CommandComponent />
+        <ContextmenuComponent />
       </div>
     </>
   );

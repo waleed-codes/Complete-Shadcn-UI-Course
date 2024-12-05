@@ -7,20 +7,28 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 const CardComponents = () => {
   return (
-    <div>
+    <div className="p-10">
       <Card>
         <CardHeader>
           <CardTitle>Card Title</CardTitle>
           <CardDescription>Card Description</CardDescription>
         </CardHeader>
         <CardContent>
-          <p>Card Content</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+            suscipit eos facere fugiat illum in dolores optio, voluptate illo
+            nobis voluptates amet error dicta modi accusantium commodi
+            architecto nemo. Natus quibusdam temporibus delectus. Minima
+            corrupti accusantium commodi, praesentium inventore quaerat quis
+            adipisci autem est! Sint beatae quaerat voluptates ea iusto.
+          </p>
         </CardContent>
         <CardFooter>
-          <p>Card Footer</p>
+          <Button className="w-full"> Login</Button>
         </CardFooter>
       </Card>
     </div>
