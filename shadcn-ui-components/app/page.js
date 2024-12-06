@@ -14,6 +14,7 @@ import CheckBoxComponent from "./_components/CheckBoxComponent";
 import { CollapsibleComponent } from "./_components/CollapsibleComponent";
 import { CommandComponent } from "./_components/CommandComponent";
 import ContextmenuComponent from "./_components/ContextmenuComponent";
+import PopoverComponent from "./_components/PopoverComponent";
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
         <CollapsibleComponent />
         <CommandComponent />
         <ContextmenuComponent />
+        <PopoverComponent />
       </div>
     </>
   );
