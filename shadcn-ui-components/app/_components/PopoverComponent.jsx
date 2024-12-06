@@ -39,7 +39,7 @@ const PopoverComponent = () => {
               <Button>Quick View</Button>
             </PopoverTrigger>
             <PopoverContent>
-              <ProductDetail card/>
+              <ProductDetail />
             </PopoverContent>
           </Popover>
         </CardFooter>

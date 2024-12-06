@@ -14,7 +14,21 @@ import CheckBoxComponent from "./_components/CheckBoxComponent";
 import { CollapsibleComponent } from "./_components/CollapsibleComponent";
 import { CommandComponent } from "./_components/CommandComponent";
 import ContextmenuComponent from "./_components/ContextmenuComponent";
+import { DatePickerComponent } from "./_components/DatePickerComponent";
+import DialogComponent from "./_components/DialogComponent";
+import DrawerComponent from "./_components/DrawerComponent";
+import DropdownMenuComp from "./_components/DropdownMenuComp";
+import HoverCardComp from "./_components/HoverCardComp";
 import PopoverComponent from "./_components/PopoverComponent";
+import InputOTPComp from "./_components/InputOTPComp";
+import InputComp from "./_components/InputComp";
+import { LabelComp } from "./_components/LabelComp";
+import MenubarComp from "./_components/MenubarComp";
+import NavigationMenuComp from "./_components/NavigationMenuComp";
+import { PaginationComp } from "./_components/PaginationComp";
+import { ProgressComp } from "./_components/ProgressComp";
+import RadioGroupComp from "./_components/RadioGroupComp";
+import { ResizableComp } from "./_components/ResizableComp";
 
 export default function Home() {
   return (
@@ -35,6 +49,20 @@ export default function Home() {
         <CommandComponent />
         <ContextmenuComponent />
         <PopoverComponent />
+        <DatePickerComponent />
+        <DialogComponent />
+        <DrawerComponent />
+        <DropdownMenuComp />
+        <HoverCardComp />
+        <InputComp />
+        <InputOTPComp />
+        <LabelComp />
+        <MenubarComp />
+        <NavigationMenuComp />
+        <PaginationComp />
+        <ProgressComp />
+        <RadioGroupComp />
+        <ResizableComp />
       </div>
     </>
   );
