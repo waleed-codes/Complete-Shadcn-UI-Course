@@ -31,6 +31,19 @@ import RadioGroupComp from "./_components/RadioGroupComp";
 import { ResizableComp } from "./_components/ResizableComp";
 import ScrollAreaComp from "./_components/ScrollAreaComp";
 import SelectComp from "./_components/SelectComp";
+import SheetComp from "./_components/SheetComp";
+import SkeletonComp from "./_components/SkeletonComp";
+import SliderComp from "./_components/SliderComp";
+import SonnerComp from "./_components/SonnerComp";
+import SwitchComp from "./_components/SwitchComp";
+import TableComp from "./_components/TableComp";
+import TabsComp from "./_components/TabsComp";
+import TextareaComp from "./_components/TextareaComp";
+import ToastComp from "./_components/ToastComp";
+import ToggleComp from "./_components/ToggleComp";
+import ToggleGroupComp from "./_components/ToggleGroupComp";
+import TooltipComp from "./_components/TooltipComp";
+import { FormComp } from "./_components/FormComp";
 
 export default function Home() {
   return (
@@ -67,6 +80,19 @@ export default function Home() {
         <ResizableComp />
         <ScrollAreaComp />
         <SelectComp />
+        <SheetComp />
+        <SkeletonComp />
+        <SliderComp />
+        <SonnerComp />
+        <SwitchComp />
+        <TableComp />
+        <TabsComp />
+        <TextareaComp />
+        <ToastComp />
+        <ToggleComp />
+        <ToggleGroupComp />
+        <TooltipComp />
+        <FormComp />
       </div>
     </>
   );
