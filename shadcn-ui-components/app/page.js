@@ -29,6 +29,8 @@ import { PaginationComp } from "./_components/PaginationComp";
 import { ProgressComp } from "./_components/ProgressComp";
 import RadioGroupComp from "./_components/RadioGroupComp";
 import { ResizableComp } from "./_components/ResizableComp";
+import ScrollAreaComp from "./_components/ScrollAreaComp";
+import SelectComp from "./_components/SelectComp";
 
 export default function Home() {
   return (
@@ -63,6 +65,8 @@ export default function Home() {
         <ProgressComp />
         <RadioGroupComp />
         <ResizableComp />
+        <ScrollAreaComp />
+        <SelectComp />
       </div>
     </>
   );
