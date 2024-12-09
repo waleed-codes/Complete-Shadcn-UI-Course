@@ -14,7 +14,7 @@ const CardComponents = () => {
     <div className="p-10">
       <Card>
         <CardHeader>
-          <CardTitle>Card Title</CardTitle>
+          <CardTitle className="text-[#334155]">Card Title</CardTitle>
           <CardDescription>Card Description</CardDescription>
         </CardHeader>
         <CardContent>
