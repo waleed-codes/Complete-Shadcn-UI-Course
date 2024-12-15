@@ -1,6 +1,7 @@
-# This is a Complete Shadcn UI Course
+# Complete Shadcn UI Course
 
-### Beautifully designed components that you can copy and paste into your apps. Made with Tailwind CSS. Open source.
-https://ui.shadcn.com/
+### Discover beautifully crafted components ready for integration into your applications. Built with Tailwind CSS and available as open source.
 
-[Shadcn UI Offical Website](https://ui.shadcn.com/)
+[GitHub Repository](https://github.com/waleed-codes/Complete-Shadcn-UI-Course)
+
+[Official Shadcn UI Website](https://ui.shadcn.com/)
